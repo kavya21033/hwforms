@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center><h1>Course Registration Form</h1></center>
+    <form action="ack.html" target="_blank" autocomplete="on">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+          <tr>
+            <td><label>First Name:</label></td>
+            <td><input type="text" required name="first" /><br /></td>
+          </tr>
+          <tr>
+            <td><label>Sur Name:</label></td>
+            <td><input type="text" name="sur" /><br /></td>
+          </tr>
+          <tr>
+            <td><label>Mobile Number:</label></td>
+            <td><input type="tel" required name="mobile" /><br /></td>
+          </tr>
+          <tr>
+            <td><label>Email Id:</label></td>
+            <td><input type="email" required name="email" /><br /></td>
+          </tr>
+          <tr>
+            <td><label>Password:</label></td>
+            <td><input type="password" required name="password" /><br /></td>
+          </tr>
+          <tr>
+            <td><label>Confirm Password:</label></td>
+            <td><input type="password" required name="password" /><br /></td>
+          </tr>
+          <tr>
+            <td><label>Date of Birth:</label></td>
+            <td><input type="date" name="date" /><br /></td>
+          </tr>
+          <tr>
+            <td><label>Gender</label></td>
+            <td>
+              <input type="radio" name="Male" value="M" />Male
+              <input type="radio" name="Male" value="F" />female
+              <input type="radio" name="Male" value="O" />other <br />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Select Country:</label></td>
+            <td>
+              <select name="" id="">
+                <option value="J">Jupiter</option>
+                <option value="M">Mars</option>
+                <option value="S">Saturn</option></select
+              ><br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Upload file:</label></td>
+            <td><input type="file" required name="img" /><br /></td>
+          </tr>
+          <tr>
+            <td><input type="reset" /><br /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Course Details</legend>
+        <label for="">Select Course:</label><br />
+
+        <select name="" id="">
+          <option value="">Python Full Stack</option>
+          <option value="">Java Full Stack</option>
+          <option value="">MERN Full Stack</option></select
+        ><br />
+
+        <label for="">Delivery Mode</label>
+
+        <input type="radio" name="" id="" />Offline
+        <input type="radio" name="" id="" />Online <br />
+
+        <label for="">Comments</label><br />
+        <textarea cols="50" rows="5"></textarea>
+      </fieldset>
+      <input type="submit" name="" id="" />
+    </form>
+  </body>
+</html>
